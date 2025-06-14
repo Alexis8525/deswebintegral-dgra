@@ -1,11 +1,12 @@
-# Usa imagen oficial de nginx
-FROM nginx:alpine
+FROM node:24
 
-# Copia los archivos de producción a la carpeta que nginx sirve
-COPY build/ /usr/share/nginx/html
+WORKDIR /app
 
-# Expone el puerto 80
-EXPOSE 80
+COPY package.json package-lock.json ./
+RUN npm install
 
-# Inicia nginx
-CMD ["nginx", "-g", "daemon off;"]
+COPY . .
+
+EXPOSE 5000
+
+CMD ["npm", "start"]
