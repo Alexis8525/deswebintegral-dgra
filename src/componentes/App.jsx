@@ -4,7 +4,7 @@
         <>
       <NavBar />
       <div className="container mt-5">
-        <h2 className="text-primary">Desarrollo web integral 4</h2>
+        <h2 className="text-primary">¡Bienvenido a MiSitioWeb! Desarrollo web integral</h2>
         <hr />
         <p>
           Esta es una aplicación web construida con <strong>React</strong> y <strong>Bootstrap</strong>. Aquí podrás encontrar información sobre nuestros servicios, conocer más sobre nosotros y ponerte en contacto si lo necesitas.
