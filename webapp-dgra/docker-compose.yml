@@ -1,8 +1,0 @@
-version: '3'
-
-services:
-  reactapp:
-    build: .
-    ports:
-      - "3000:5000"
-    container_name: react_web
