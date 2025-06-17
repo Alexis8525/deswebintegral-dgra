@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/deswebintegral-dgra/static/js/main.e76f6b0d.js",
+    "main.js": "/deswebintegral-dgra/static/js/main.1400492c.js",
     "index.html": "/deswebintegral-dgra/index.html",
-    "main.e76f6b0d.js.map": "/deswebintegral-dgra/static/js/main.e76f6b0d.js.map"
+    "main.1400492c.js.map": "/deswebintegral-dgra/static/js/main.1400492c.js.map"
   },
   "entrypoints": [
-    "static/js/main.e76f6b0d.js"
+    "static/js/main.1400492c.js"
   ]
 }
